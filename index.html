@@ -27,6 +27,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+               'gradient-text':'',
               }
             }
           }
@@ -104,27 +105,48 @@
 
         <!-- Fresh Tea Section -->
         <section class="my-24">
-            <div class="flex flex-col lg:flex-row gap-12">
+            <div class="flex px-5 flex-col-reverse lg:flex-row gap-12">
                 <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
                     <div class="rounded-xl h-36 bg-gradient-to-r from-red-200 to-amber-200"></div>
-                    <div class="row-span-2 rounded-xl px-8 py-12 flex justify-center items-center">
+                    <div class="row-span-2 rounded-xl px-8 py-12 flex justify-center items-center bg-gradient-to-r from-red-200 to-amber-200">
                         <img src="images/fresh-1.png" alt="">
                     </div>
-                    <div class="row-span-2 rounded-xl px-8 py-12 flex justify-center items-center">
+                    <div class="row-span-2 rounded-xl px-8 py-12 flex justify-center items-center bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]">
                         <img src="images/fresh-2.png" alt="">
                     </div>
                     <div class="rounded-xl h-36 bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]"></div>
                 </div>
                 <div class="flex-1">
-                    <h1 class="text-5xl font-extrabold">Great Tea, Freshly <br> Presented</h1>
+                    <h1 class="text-5xl font-extrabold leading-normal">Great Tea, Freshly <br> Presented</h1>
                     <p class="font-medium mt-4 leading-7">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
                     <h1 class="font-extrabold mt-7 text-xl">Unique Taste</h1>
-                    <p class="mt-1 font-medium leading-7">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                    <p class="mt-1 font-medium leading-7 w-[458px]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
                     <h1 class="font-extrabold mt-7 text-xl">Premium Quality</h1>
-                    <p class="mt-1 font-medium leading-7">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                    <p class="mt-1 font-medium leading-7 w-[458px]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
                 </div>
             </div>
         </section>
+
+        <!-- Client section -->
+        <section class="py-24">
+            <div class="rounded-lg flex flex-col lg:flex-row gap-12 bg-gradient-to-r from-[#FF8938] from-0%  to-[#F00] to-100% py-24 px-16">
+                <div class="space-y-5">
+                    <h1 class="text-5xl font-extrabold text-white">Meet Our Super <br> Clients</h1>
+                    <p class="font-medium leading-7 text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                    <button class="btn btn-primary">Show All</button>
+                </div>
+                <div>
+                    <!-- review 1 -->
+                    <div class="relative p-10 rounded-lg bg-white">
+                        <img class="absolute -left-6 -top-6" src="images/client.png" alt="">    
+                        <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                        <h1 class="font-bold mt-5">Ilham Yuda</h1>
+                        <p>Businessman</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main> 
     <footer>
 
